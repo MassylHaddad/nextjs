@@ -1,0 +1,265 @@
+@media print {
+    .body{
+        width: 21cm;
+        height: 29.7cm;
+    }
+   .container{
+    width: 90%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+}
+* {
+    font-family: sans-serif;
+    list-style: none;
+    list-style-position: outside;
+
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color:#E7E7E7;
+    display: flex;
+    justify-content: center;
+    height: 99%;
+    width: 99%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 4%;
+    margin-bottom: 20%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.leftSide {
+    background-color: white;
+
+}
+.rightSide {
+    background-color: white;
+}
+ul {
+    margin: 5%;
+    padding: 3%;
+}
+.icon {
+    color:rgb(51, 32, 144);
+    font-size: 1.4em;
+}
+.leftSide ul {
+    margin: 5;
+    margin-left: 0;
+    margin-right: 5;
+    padding: 50;
+}
+.leftSide li {
+    padding: 1.5%;
+}
+img {
+    width: 59%;
+    height: auto;
+    border-radius: 42%;
+    position: relative;
+    left: 20%;
+    margin-top: 20%;
+}
+.rightSide ul {
+    margin: 5;
+    margin-left: 5;
+    margin-right: 2;
+    padding: 100;
+}
+
+
+ul.BUT {
+    background-color: #000091;
+    margin-top: 8%;
+    margin-left: 0;
+}
+.nom {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20%;
+    font-size: 3rem;
+}
+.titre {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20%;
+    font-size: 1.9em;
+    letter-spacing:0.2rem;
+}
+.titre::after{
+    content: '.';
+    background: #000091;
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.text {
+    color: black;
+    font-size: 1.8em;
+    margin-left: 0;
+
+}
+
+.text2 {
+    color: black;
+    margin-bottom: 5%;
+    font-size: 1.8em;
+    margin-left: 0;
+}
+
+.text2g {
+    color: gray;
+    margin-bottom: 5%;
+    font-size: 1.8em;
+    margin-left: 0;
+    text-transform: uppercase;
+}
+
+.text2b {
+    color: white;
+    margin-bottom: 5%;
+    font-size: 2.7em;
+    font-style: italic;
+    margin-left: 0;
+    font-weight: 600;
+}
+.textStatus{
+    color: black;
+    margin-bottom: 5%;
+    font-size: 1.8em;
+    font-style: italic;
+    margin-left: 0;
+    font-weight: 550;
+    text-transform: uppercase;
+
+}
+.text0 {
+    color: black;
+    margin-bottom: 5%;
+    font-size: 1.8em;
+    margin-left: 0;
+
+}
+.over {
+    position: relative;
+    right: 53.3%;
+    color: black;
+    letter-spacing: 1%;
+    margin-bottom: 5%;
+    font-size: 1.8em;
+    margin-left: 0;
+}
+.ul2 {
+    margin: 4%;
+}
+
+.box .percent {
+    position: relative;
+    left: 34.5%;
+    bottom: 5%;
+    width: 60%;
+    height: 16px;
+    background: #081921;
+    margin-top: 5px;
+    padding: 50;
+}
+.box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    height: 100%;
+    background: tomato;
+    padding: 50;
+}
+div.box {
+    padding: 3%;
+}
+.COORDONNÉES{
+    margin-top: 20%;
+
+}
+.FORMATIONS {
+    margin-top: 4%;
+    margin-bottom: 0%;
+}
+.OUTILS {
+    margin-top: 0%;
+    margin-bottom: 0%;   
+}
+.EXPERIENCES {
+    margin-top: 0%;
+    margin-bottom: 0%;   
+}
+.QUALITES .text {
+}
+
+#QUALITES button{
+    display: none;
+}
+#QUALITES .text {
+    margin: none;    
+}
+#QUALITES::after{
+    content: 'Расцветали';
+    color: #000091;
+    background: none;
+	border: 0px;
+
+}
+#QUALITES:hover::after{
+    content: 'Rastsvetali';
+    width: initial;
+
+}
+#QUALITES:active::after {
+    content: 'Flourished';
+
+}
+
+
+
+
+
+
+
+#QUALITES0 button{
+    display: none;
+}
+#QUALITES0 .text {
+    margin: none;    
+}
+#QUALITES0::after{
+    content: 'яблони';
+    color: #000091;
+    background: none;
+	border: 0px;
+}
+#QUALITES0:hover::after{
+    content: 'yabloni';
+
+}
+#QUALITES0:active::after {
+    content: 'pommiers';
+
+}
+
+.LANGUES .text {
+    margin-left: 6%;
+
+}
+@media screen and (max-width:1300px){
+    .container {
+        margin: 0;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
