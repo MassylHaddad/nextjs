@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
       <div className="container">
         <div className="leftSide">
-          <img src="Massyl.png" alt="Photo" />
+          <img src="massyl.png" alt="Photo" />
           <ul className="COORDONNÉES">
             <span className="titre">COORDONNÉES</span><br /><br />
             <li>
