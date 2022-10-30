@@ -1,7 +1,14 @@
 import '../styles/resume.css'
 import '../styles/index.css'
 import '../styles/button.css'
+import Script from 'next/script'
 
 export default function App({ Component, pageProps }: any) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Script async src="https://cdn.splitbee.io/sb.js">
+      </Script>
+      <Component {...pageProps} />
+    </>
+  )
 }
