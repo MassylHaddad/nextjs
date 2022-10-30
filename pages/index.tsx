@@ -1,6 +1,10 @@
-import Link from 'next/link'
+import Hero from "../sections/Hero";
 
 export default function Index() {
-    return <Link href="/resume">Resume</Link>
+    return (
+        <div>
+        <Hero />
+      </div>
+    )
 
 }

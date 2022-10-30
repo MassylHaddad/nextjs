@@ -1,7 +1,7 @@
-import '../styles/rsm.css'
+import '../styles/resume.css'
+import '../styles/index.css'
+import '../styles/button.css'
 
-import type { AppProps } from 'next/app'
-
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }: any) {
   return <Component {...pageProps} />
 }

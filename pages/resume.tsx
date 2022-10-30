@@ -77,19 +77,19 @@ export default function Home() {
           <ul className="FORMATIONS">
             <span className="titre">FORMATIONS</span><br /><br />
             <div className="ul2">
-              <li><span className="text2g"> 2022-2023 &nbsp </span><span className="text2g"> &nbsp <abbr
+              <li><span className="text2g"> 2022-2023  </span><span className="text2g">  <abbr
                 title="Ecole Privée des Sciences Informatiques">EPSI</abbr></span></li>
               <li><span className="text2"> Cycle Bachelor Development Web </span></li>
             </div>
             <div className="ul2">
-              <li><br /><span className="text2g"> 2019 - 2022 &nbsp </span><span className="text2g"> &nbsp <abbr
+              <li><br /><span className="text2g"> 2019 - 2022  </span><span className="text2g">  <abbr
                 title="Université de Picardie Jules-Verne">UPJV</abbr></span></li>
               <li><span className="textStatus"> Etudiant en Informatique </span></li>
               <li><span className="text2">Projet universitaire : 2 sites, 2 jeux, 2 algorithmes <br />
                 (2 en C | 1 en PHP | 2 en JS)</span></li>
             </div>
             <div className="ul2">
-              <li><span className="text2g"> 2016-2019 &nbsp </span><span className="text2g"> &nbsp <abbr
+              <li><span className="text2g"> 2016-2019  </span><span className="text2g">  <abbr
                 title="Le Centre national d'enseignement à distance ">CNED</abbr></span></li>
               <li><span className="text2"> Filière lycée général ES </span></li>
             </div>
@@ -120,19 +120,19 @@ export default function Home() {
           <ul className="EXPERIENCES">
             <span className="titre">EXPERIENCES</span><br />
             <div className="ul2">
-              <li><br /><span className="text2g"> Août 2022 - &nbsp </span><span className="text2g"> &nbsp <abbr
+              <li><br /><span className="text2g"> Août 2022 -  </span><span className="text2g">  <abbr
                 title="Fleury Merogis">Green Hôtel Fleury</abbr></span></li>
               <li><span className="textStatus">Employé polyvalent</span></li>
               <li><span className="text2">Réception & Réservations <br /> Entretiens de l'hôtel </span> </li>
             </div>
             <div className="ul2">
-              <li><br /><span className="text2g"> 2015 - 2019 &nbsp </span><span className="text2g"> &nbsp <abbr title="">Bureau
+              <li><br /><span className="text2g"> 2015 - 2019  </span><span className="text2g">  <abbr title="">Bureau
                 d'Avocat</abbr></span></li>
               <li><span className="textStatus"> Agent de saisie </span></li>
               <li><span className="text2">Emploie a mi temps. Saisie de documents</span></li>
             </div>
             <div className="ul2">
-              <li><br /><span className="text2g"> 2014 &nbsp </span><span className="text2g"> &nbsp <abbr
+              <li><br /><span className="text2g"> 2014  </span><span className="text2g">  <abbr
                 title="Entreprise nationale de télévision">ENTV</abbr></span></li>
               <li><span className="textStatus"> Figurant </span></li>
               <li><span className="text2">Passage série télévisée <br /> et immersion dans les coullisses</span></li>
