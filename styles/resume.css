@@ -16,7 +16,6 @@
     font-family: sans-serif;
     list-style: none;
     list-style-position: outside;
-
 }
 
 html {
@@ -25,7 +24,7 @@ html {
 }
 
 body, #__next {
-    background-color: #E7E7E7;
+    background: #A6B7A0;
     display: flex;
     justify-content: center;
     height: 99%;
@@ -36,7 +35,6 @@ body, #__next {
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-top: 4%;
-    margin-bottom: 20%;
     margin-left: 6%;
     margin-right: 6%;
 }
@@ -52,19 +50,20 @@ body, #__next {
 
 ul {
     margin: 5%;
-    padding: 3%;
+    padding-inline-start: 0px;
+
 }
 
 .icon {
-    color: rgb(51, 32, 144);
+    color: #A6B7A0;
     font-size: 1.4em;
+    
 }
 
 .leftSide ul {
     margin: 5;
     margin-left: 0;
     margin-right: 5;
-    padding: 50;
 }
 
 .leftSide li {
@@ -76,23 +75,32 @@ img {
     height: auto;
     border-radius: 42%;
     position: relative;
-    left: 20%;
-    margin-top: 20%;
+    left: 0%;
+    margin-top: 10%;
+    align-items: center;
+    display: flex;
 }
-
+.img {
+    align-items: center;
+    display:flex;
+}
 .rightSide ul {
-    margin: 5;
-    margin-left: 5;
+    margin-left: 2;
     margin-right: 2;
-    padding: 100;
 }
 
 
 ul.BUT {
-    background-color: #000091;
+    background: linear-gradient(36deg, #00cccf96 1%, #A6B7A0);
     margin-top: 8%;
-    margin-left: 0;
+    margin-left: 4%;
+    border-radius: 5%;
 }
+ul.BUT.li {
+    padding-left: 4%;
+
+}
+
 
 .nom {
     color: white;
@@ -106,14 +114,13 @@ ul.BUT {
     color: black;
     text-transform: uppercase;
     font-weight: 600;
-    margin-bottom: 20%;
     font-size: 1.9em;
     letter-spacing: 0.2rem;
 }
 
 .titre::after {
     content: '.';
-    background: #000091;
+    background: #A6B7A0;
     display: block;
     font-size: 10px;
     font-weight: 400;
@@ -128,8 +135,8 @@ ul.BUT {
 
 .text2 {
     color: black;
-    margin-bottom: 5%;
-    font-size: 1.8em;
+    margin-bottom: 15%;
+    font-size: 1.6em;
     margin-left: 0;
 }
 
@@ -149,6 +156,14 @@ ul.BUT {
     margin-left: 0;
     font-weight: 600;
 }
+.text2c {
+    color: white;
+    margin-bottom: 5%;
+    font-size: 2em;
+    font-style: italic;
+    margin-left: 0;
+    font-weight: 500;
+}
 
 .textStatus {
     color: black;
@@ -165,33 +180,27 @@ ul.BUT {
     color: black;
     margin-bottom: 5%;
     font-size: 1.8em;
-    margin-left: 0;
+    
 
 }
 
 .over {
     position: relative;
-    right: 53.3%;
+    right: 60%;
     color: black;
-    letter-spacing: 1%;
-    margin-bottom: 5%;
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin-left: 0;
+    font-size: 1.5rem;
 }
 
-.ul2 {
-    margin: 4%;
-}
 
 .box .percent {
     position: relative;
-    left: 34.5%;
+    left: 42%;
     bottom: 5%;
     width: 60%;
     height: 16px;
-    background: #081921;
-    margin-top: 5px;
-    padding: 50;
+    background: #A6B7A0;
 }
 
 .box .percent div {
@@ -199,8 +208,8 @@ ul.BUT {
     top: 0;
     left: 0%;
     height: 100%;
-    background: tomato;
-    padding: 50;
+    background:#00BABD;
+    
 }
 
 div.box {
@@ -211,20 +220,19 @@ div.box {
     margin-top: 20%;
 
 }
-
+ul.COORDONNÉES {
+    margin-right: 0;
+}
 .FORMATIONS {
-    margin-top: 4%;
-    margin-bottom: 0%;
+    margin-top: 1%;
 }
 
 .OUTILS {
     margin-top: 0%;
-    margin-bottom: 0%;
 }
 
 .EXPERIENCES {
     margin-top: 0%;
-    margin-bottom: 0%;
 }
 
 
@@ -238,7 +246,8 @@ div.box {
 
 #QUALITES::after {
     content: 'Расцветали';
-    color: #000091;
+    background: linear-gradient(45deg, #A6B7A0 27%, #00BABD);
+    color: ;
     background: none;
     border: 0px;
 
@@ -255,12 +264,6 @@ div.box {
 
 }
 
-
-
-
-
-
-
 #QUALITES0 button {
     display: none;
 }
@@ -271,7 +274,8 @@ div.box {
 
 #QUALITES0::after {
     content: 'яблони';
-    color: #000091;
+    background: linear-gradient(45deg, #A6B7A0 27%, #00BABD);
+    color: ;
     background: none;
     border: 0px;
 }
@@ -286,14 +290,17 @@ div.box {
 
 }
 
-.LANGUES .text {
-    margin-left: 6%;
-
+.leftSide .text {
+    margin-left: 3%;
 }
 
 @media screen and (max-width:1300px) {
     .container {
         margin: 0;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .over {
+        position: relative;
+        right: 77%;
     }
 }

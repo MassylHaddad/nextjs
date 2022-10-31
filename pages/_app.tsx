@@ -1,6 +1,5 @@
 import '../styles/resume.css'
 import '../styles/index.css'
-import '../styles/button.css'
 import Script from 'next/script'
 
 export default function App({ Component, pageProps }: any) {
