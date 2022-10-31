@@ -1,9 +1,9 @@
-import Home from "../sections/home";
+import Hero from "../sections/hero";
 
 export default function Index() {
     return (
         <div>
-            <Home />
+            <Hero />
         </div>
     )
 
