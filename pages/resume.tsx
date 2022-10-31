@@ -12,7 +12,6 @@ export default function Home() {
       </Head>
       <div className="container">
         <div className="leftSide">
-        <img src="../public/massyl.jpg" alt="" />
           <section className="beta-section">
               <a href="https://massylhaddad.me">
               <div className="containerC">

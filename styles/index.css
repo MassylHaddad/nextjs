@@ -1,9 +1,6 @@
-.__next{
-    background: linear-gradient(45deg, #A6B7A0 27%, #00BABD);
-
-}
 section.hero-section {
     margin-top: 4rem;
+
 }
 
 section.hero-section h1.title {
@@ -41,9 +38,23 @@ section.hero-section p.summary {
 }
 
 .hero-section button#resume-button:hover {
-    border: 2px solid #A6B7A0;
+    border: 2px solid white;
 }
 
+section.beta-section {
+    font-size: 4.5rem;
+    line-height: 1;
+    font-weight: 700;
+    position: relative;
+    left: 0%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
   
   .containerC {
     width: 350px;
