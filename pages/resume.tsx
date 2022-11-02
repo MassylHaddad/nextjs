@@ -12,7 +12,7 @@ export default function Home() {
     </Head>
     <div className="container">
       <div className="leftSide">
-        <a href="https://massylhaddad.me"><img className='photo' src="Massyl.jpg" alt="Photo" /></a>
+        <a href="https://massylhaddad.me"><img className='photo' src="massyl.jpg" alt="Photo" /></a>
         <hr /><p className="titre">COORDONNÉES</p>
         <p className="text"><i className="fa fa-phone" aria-hidden="true"></i> +33661751400</p>
         <p className="text"><i className="fa fa-envelope" aria-hidden="true"></i> massyl.haddad@gmail.com</p>
