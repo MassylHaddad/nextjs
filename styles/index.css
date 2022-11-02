@@ -1,102 +1,55 @@
 section.hero-section {
-    margin-top: 4rem;
-
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section.hero-section h1.title {
-    font-size: 4.5rem;
-    line-height: 1;
-    font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #112B3C;
 }
 
 section.hero-section h1.title span.name {
-    color: #00BABD;
+  color: #205375;
 }
 
 
 section.hero-section h3.description {
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  color: #112B3C;
+
 }
 
 section.hero-section p.summary {
-    margin-bottom: 2rem;
-    color: #374151;
+  margin-bottom: 2rem;
+  color: #374151;
 }
 
-.hero-section button#resume-button {
-    padding: 0.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    background-color: #00BABD;
-    color: #ffffff;
-    border-radius: 0.375rem;
-    cursor: pointer;
-    border: 2px solid #00BABD;
+button#resume-button {
+  padding: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #ffff;
+  color: #205375;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: 1000ms;
+  transform: translateY(0);
+  border: solid 2px #205375;
+
 }
 
-.hero-section button#resume-button:hover {
-    border: 2px solid white;
+button#resume-button:hover {
+  transition: 1000ms;
+  transform: translateY(-0px);
+  background-color: #205375;
+  color: #ffff;
+  border: solid 2px #ffff;
 }
-
-section.beta-section {
-    font-size: 4.5rem;
-    line-height: 1;
-    font-weight: 700;
-    position: relative;
-    left: 0%;
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-  }
-  
-  
-  .containerC {
-    width: 350px;
-    height: 420px;
-    perspective: 800px;
-  
-  }
-  
-  .containerC:hover>.card {
-    cursor: pointer;
-    transform: rotateY(180deg);
-  }
-  
-  .card {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    transition: transform 1500ms;
-    transform-style: preserve-3d;
-  }
-  
-  .front,
-  .back {
-    height: 100%;
-    width: 100%;
-    border-radius: 2rem;
-    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
-    position: absolute;
-    backface-visibility: hidden;
-  }
-  
-  .front {
-    background-image: url(../public/massyl.jpg);
-    background-size: 100%;
-  }
-  
-  .back {
-    background: linear-gradient(45deg, #A6B7A0 27%, #00BABD);
-    transform: rotateY(180deg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-  }
