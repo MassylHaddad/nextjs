@@ -14,30 +14,32 @@
     background-color: #fafafa;
 }
 
-img.photo {
-    border-radius: 2em;
-    height: 21em;
-    width: auto;
-    position: relative;
-    left: 3em;
-    margin: 1em;
-}
 .leftSide {
     margin: 1em;
 }
 
-img.html, img.css, img.js, img.c, img.java, img.python, img.postgresql, img.fire, img.git {
+img.node,
+img.react,
+img.git,
+img.java,
+img.fire,
+img.postgresql,
+img.c,
+img.python {
     height: 6em;
     width: auto;
     padding: 0.9em;
-    margin-right: 1em ;
+    margin-right: 1em;
 }
-img.tail{
+
+img.tail {
     height: 3em;
 }
-img.docker{
+
+img.docker {
     height: 4em;
 }
+
 .rightSide {
     margin: 1em;
 }
@@ -73,6 +75,24 @@ div.ButContent {
     font-style: italic;
 }
 
+div.ButContentBack{
+    margin: 1rem;
+    padding: 1rem;
+}
+.goalBack {
+    color: #112B3C;
+    font-size: 0.3em;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.rhythmBack {
+    color: #112B3C;
+    font-size: 0.3em;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
 .titre {
     color: #112B3C;
     text-transform: uppercase;
@@ -100,22 +120,75 @@ div.ButContent {
     font-weight: 550;
     text-transform: uppercase;
 }
-.text2g hr{
+
+.text2g hr {
     border-top: 0.1px dashed #EFEFEF;
     margin: 1.5em;
 }
+
+.front img.photo {
+    height: 100%;
+    width: auto;
+    border-radius: 2rem;
+}
+
+section.beta-section {
+    font-size: 4.5rem;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.25em;
+}
+
+.containerC {
+    width: 252px;
+    height: 336px;
+    perspective: 800px;
+}
+
+.containerC:active>.card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1000ms;
+    transform-style: preserve-3d;
+}
+
+.front,
+.back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front {
+    background-size: 100%;
+}
+
+.back {
+    background: linear-gradient(220deg, #A6B7A0 27%, #00BABD);
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media screen and (max-width:1300px) {
     .container {
         margin: 0;
         grid-template-columns: repeat(1, 1fr);
-    }
-
-    .leftSide img {
-        position: relative;
-        left: 5em;
-        height: 15em;
-        width: auto;
     }
 
     .nom {
@@ -129,7 +202,17 @@ div.ButContent {
     .rhythm {
         font-size: 0.7em;
     }
-    img{
+
+    img.node,
+    img.react,
+    img.git,
+    img.java,
+    img.fire,
+    img.postgresql,
+    img.c,
+    img.python,
+    img.tail,
+    img.docker {
         display: none;
     }
 }

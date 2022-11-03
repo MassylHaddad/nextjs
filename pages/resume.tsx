@@ -3,77 +3,89 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div>
-    <Head>
-      <title>Resume Massyl</title>
-      <meta name="Resume" content="Resume" />
-      <link rel="icon" href="/favicon.ico" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
-    </Head>
-    <div className="container">
-      <div className="leftSide">
-        <a href="https://massylhaddad.me"><img className='photo' src="massyl.jpg" alt="Photo" /></a>
-        <hr /><p className="titre">COORDONNÉES</p>
-        <p className="text"><i className="fa fa-phone" aria-hidden="true"></i> +33661751400</p>
-        <p className="text"><i className="fa fa-envelope" aria-hidden="true"></i> massyl.haddad@gmail.com</p>
-        <p className="text"><i className="fa fa-globe" aria-hidden="true"> github.com/MassylHaddad</i></p>
-        <p className="text"><i className="fa fa-linkedin" aria-hidden="true"></i> linkedin.com/massylhaddad</p>
-        <p className="text"><i className="fa fa-map-marker" aria-hidden="true"></i> 9 rue Germaine Tailleferre, 94110 Arcueil</p>
-        <hr /><p className="titre">QUALITES</p>
-        <p className="text">Travail d'équipe</p>
-        <p className="text">Rigueur</p>
-        <p className="text">Autonomie</p>
-        <hr /><p className="titre">LANGUES</p>
-        <p className="text">Français</p>
-        <p className="text">Anglais</p>
-        <p className="text">Kabyle</p>
-        <hr /><p className="titre">PASSE-TEMPS</p>
-        <p className="text">Actualité scientifique</p>
-        <p className="text">Jeux Video</p>
-        <p className="text">Lecture (Software craftsmanship)</p>
-        <p className="text">Meditation</p>
-        <hr /><p className="titre">OUTILS</p>
-        <img className="html" src="/svg/node.svg" alt="" />
-        <img className="git" src="/svg/React.svg" alt="" />
-        <img className="tail" src="/svg/Tailwind.svg" alt="" />
-        <img className="css" src="/svg/git.svg" alt="" />
-        <img className="java" src="/svg/Java.svg" alt="" />
-        <img className="docker" src="/svg/Docker.svg" alt="" />
-        <img className="fire" src="/svg/Firebase.svg" alt="" />
-        <img className="postgresql" src="/svg/Postgresql.svg" alt="" />
-        <img className="c" src="/svg/C.svg" alt="" />
-        <img className="python" src="/svg/Python.svg" alt="" />
-      </div>
-      <div className="rightSide">
-        <div className="BUT">
-          <div className="ButContent">
-            <p className="nom">Massyl HADDAD</p>
-            <p className="goal">En recherche d'alternance <br /> en Development Fullstack </p>
-            <p className="rhythm"> 2 semaines en entreprise / 1 semaine en école</p>
-          </div>
+      <Head>
+        <title>Resume Massyl</title>
+        <meta name="Resume" content="Resume" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+          integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
+      </Head>
+      <div className="container">
+        <div className="leftSide">
+          <section className="beta-section">
+            <div className="containerC">
+              <div className="card">
+                <div className="front"><img className='photo' src="massyl.jpg" alt="Photo" /></div>
+                <div className="back">
+                  <div className="ButContentBack">
+                    <p className="goalBack">En recherche d'alternance; <br /> <br /> Development Fullstack </p>
+                    <p className="rhythmBack"> 2 semaines en entreprise / <br /> <br /> 1 semaine en école</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr /><p className="titre">COORDONNÉES</p>
+          <p className="text"><i className="fa fa-phone" aria-hidden="true"></i> +33661751400</p>
+          <p className="text"><i className="fa fa-envelope" aria-hidden="true"></i> massyl.haddad@gmail.com</p>
+          <p className="text"><i className="fa fa-globe" aria-hidden="true"> github.com/MassylHaddad</i></p>
+          <p className="text"><i className="fa fa-linkedin" aria-hidden="true"></i> linkedin.com/massylhaddad</p>
+          <p className="text"><i className="fa fa-map-marker" aria-hidden="true"></i> 9 rue Germaine Tailleferre, 94110 Arcueil</p>
+          <hr /><p className="titre">QUALITES</p>
+          <p className="text">Travail d'équipe</p>
+          <p className="text">Rigueur</p>
+          <p className="text">Autonomie</p>
+          <hr /><p className="titre">LANGUES</p>
+          <p className="text">Français</p>
+          <p className="text">Anglais</p>
+          <p className="text">Kabyle</p>
+          <hr /><p className="titre">PASSE-TEMPS</p>
+          <p className="text">Actualité scientifique</p>
+          <p className="text">Jeux Video</p>
+          <p className="text">Lecture (Software craftsmanship)</p>
+          <p className="text">Meditation</p>
+          <hr /><p className="titre">OUTILS</p>
+          <img className="node" src="/svg/node.svg" alt="node" />
+          <img className="react" src="/svg/react.svg" alt="react" />
+          <img className="tail" src="/svg/tailwind.svg" alt="tailwind" />
+          <img className="git" src="/svg/git.svg" alt="git" />
+          <img className="java" src="/svg/java.svg" alt="java" />
+          <img className="docker" src="/svg/docker.svg" alt="docker" />
+          <img className="fire" src="/svg/firebase.svg" alt="firebase" />
+          <img className="postgresql" src="/svg/postgresql.svg" alt="postgresql" />
+          <img className="c" src="/svg/C.svg" alt="c" />
+          <img className="python" src="/svg/python.svg" alt="python" />
         </div>
-        <hr /><p className="titre">FORMATIONS</p>
-        <p className="text2g"> 2022-2023 <abbr title="Ecole Privée des Sciences Informatiques">EPSI</abbr></p>
-        <p className="textStatus"> Cycle Bachelor Development Web </p>
-        <p className="text">DEVOPS : Concepteur Développeur d’Applications</p>
-        <p className="text2g"> <hr /> 2019 - 2022 <abbr title="Université de Picardie Jules-Verne">UPJV</abbr></p>
-        <p className="textStatus"> Cycle Licence Informatique</p>
-        <p className="text">Projet universitaire : 2 sites, 2 jeux, 2 algorithmes</p>
-        <p className="text2g"> <hr /> 2016-2019   <abbr title="Le Centre national d'enseignement à distance ">CNED</abbr></p>
-        <p className="textStatus"> Filière lycée général ES </p>
-        <p className="text">Option de Mathématiques</p>
-        <br /><hr /><br /><br /><br /><p className="titre">EXPERIENCES</p>
-        <p className="text2g"> <hr /> Août 2022 - PRESENT ~ <abbr title="Fleury Merogis">Green Hôtel Fleury</abbr></p>
-        <p className="textStatus">Employé polyvalent</p>
-        <p className="text"> Entretien de l'hôtel  Réception & Réservations </p>
-        <p className="text2g"> <hr /> 2021 - 2022 ~  <abbr title=""></abbr>PROJET UNIVERSITAIRE</p>
-        <p className="textStatus"> Etudiant </p>
-        <div className="text"> <p> Algorithmes de plus court chemin en JavaScript/Node.js </p> <p> Réseau social en PHP </p> <p> Jeu 2D de bateau à voiles en Java </p></div>
-        <p className="text2g"> <hr /> 2019 - 2020 ~ <abbr title="">PROJET UNIVERSITAIRE </abbr></p>
-        <p className="textStatus"> Etudiant </p>
-        <div className="text"> <p> Jeu 2D de voiture en C </p> <p> Algorithmes de Tri en C </p> <p>  Site en HTML / CSS </p> </div>
+        <div className="rightSide">
+          <div className="BUT">
+            <div className="ButContent">
+              <p className="nom">Massyl HADDAD</p>
+              <p className="goal">En recherche d'alternance <br /> en Development Fullstack </p>
+              <p className="rhythm"> 2 semaines en entreprise / 1 semaine en école</p>
+            </div>
+          </div>
+          <hr /><p className="titre">FORMATIONS</p>
+          <p className="text2g"> 2022-2023 <abbr title="Ecole Privée des Sciences Informatiques">EPSI</abbr></p>
+          <p className="textStatus"> Cycle Bachelor Development Web </p>
+          <p className="text">DEVOPS : Concepteur Développeur d’Applications</p>
+          <p className="text2g"> <hr /> 2019 - 2022 <abbr title="Université de Picardie Jules-Verne">UPJV</abbr></p>
+          <p className="textStatus"> Cycle Licence Informatique</p>
+          <p className="text">Projet universitaire : 2 sites, 2 jeux, 2 algorithmes</p>
+          <p className="text2g"> <hr /> 2016-2019   <abbr title="Le Centre national d'enseignement à distance ">CNED</abbr></p>
+          <p className="textStatus"> Filière lycée général ES </p>
+          <p className="text">Option de Mathématiques</p>
+          <br /><hr /><br /><br /><br /><p className="titre">EXPERIENCES</p>
+          <p className="text2g"> <hr /> Août 2022 - PRESENT ~ <abbr title="Fleury Merogis">Green Hôtel Fleury</abbr></p>
+          <p className="textStatus">Employé polyvalent</p>
+          <p className="text"> Entretien de l'hôtel  Réception & Réservations </p>
+          <p className="text2g"> <hr /> 2021 - 2022 ~  <abbr title=""></abbr>PROJET UNIVERSITAIRE</p>
+          <p className="textStatus"> Etudiant </p>
+          <div className="text"> <p> Algorithmes de plus court chemin en JavaScript/Node.js </p> <p> Réseau social en PHP </p> <p> Jeu 2D de bateau à voiles en Java </p></div>
+          <p className="text2g"> <hr /> 2019 - 2020 ~ <abbr title="">PROJET UNIVERSITAIRE </abbr></p>
+          <p className="textStatus"> Etudiant </p>
+          <div className="text"> <p> Jeu 2D de voiture en C </p> <p> Algorithmes de Tri en C </p> <p>  Site en HTML / CSS </p> </div>
+        </div>
       </div>
     </div>
-  </div>
   )
 }
