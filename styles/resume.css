@@ -1,3 +1,26 @@
+@media print {
+    .body {
+        width: 21cm;
+        height: 29.7cm;
+    }
+
+    .container {
+        width: 90%;
+        height: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+    section.beta-section {
+        display: none;
+    }
+
+    .containerC {
+        display: none;
+    }
+    
+}
+
 * {
     font-family: sans-serif;
     list-style: none;
@@ -16,6 +39,10 @@
 
 .leftSide {
     margin: 1em;
+}
+
+div.print-photo img.photo {
+    display: none;
 }
 
 img.node,
@@ -75,10 +102,11 @@ div.ButContent {
     font-style: italic;
 }
 
-div.ButContentBack{
+div.ButContentBack {
     margin: 1rem;
     padding: 1rem;
 }
+
 .goalBack {
     color: #112B3C;
     font-size: 0.3em;

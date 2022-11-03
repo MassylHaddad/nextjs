@@ -12,6 +12,7 @@ export default function Home() {
       </Head>
       <div className="container">
         <div className="leftSide">
+          <div className="print-photo"><img className='photo' src="massyl.jpg" alt="Photo" /></div>
           <section className="beta-section">
             <div className="containerC">
               <div className="card">
@@ -53,7 +54,7 @@ export default function Home() {
           <img className="docker" src="/svg/docker.svg" alt="docker" />
           <img className="fire" src="/svg/firebase.svg" alt="firebase" />
           <img className="postgresql" src="/svg/postgresql.svg" alt="postgresql" />
-          <img className="c" src="/svg/C.svg" alt="c" />
+          <img className="c" src="/svg/c.svg" alt="c" />
           <img className="python" src="/svg/python.svg" alt="python" />
         </div>
         <div className="rightSide">
