@@ -18,7 +18,18 @@
     .containerC {
         display: none;
     }
-    
+
+    div.print-photo img.photo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2rem;
+        height: 6em;
+        width: auto;
+
+    }
+
 }
 
 * {
@@ -43,6 +54,12 @@
 
 div.print-photo img.photo {
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    height: 6em;
+    width: auto;
 }
 
 img.node,
@@ -177,7 +194,7 @@ section.beta-section {
     perspective: 800px;
 }
 
-.containerC:active>.card {
+.containerC:hover>.card {
     cursor: pointer;
     transform: rotateY(180deg);
 }
@@ -231,16 +248,5 @@ section.beta-section {
         font-size: 0.7em;
     }
 
-    img.node,
-    img.react,
-    img.git,
-    img.java,
-    img.fire,
-    img.postgresql,
-    img.c,
-    img.python,
-    img.tail,
-    img.docker {
-        display: none;
-    }
+
 }

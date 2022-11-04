@@ -19,8 +19,6 @@ export default function Home() {
                 <div className="front"><img className='photo' src="massyl.jpg" alt="Photo" /></div>
                 <div className="back">
                   <div className="ButContentBack">
-                    <p className="goalBack">En recherche d'alternance; <br /> <br /> Development Fullstack </p>
-                    <p className="rhythmBack"> 2 semaines en entreprise / <br /> <br /> 1 semaine en école</p>
                   </div>
                 </div>
               </div>
@@ -29,7 +27,7 @@ export default function Home() {
           <hr /><p className="titre">COORDONNÉES</p>
           <p className="text"><i className="fa fa-phone" aria-hidden="true"></i> +33661751400</p>
           <p className="text"><i className="fa fa-envelope" aria-hidden="true"></i> massyl.haddad@gmail.com</p>
-          <p className="text"><i className="fa fa-globe" aria-hidden="true"> github.com/MassylHaddad</i></p>
+          <p className="text"><i className="fa fa-globe" aria-hidden="true"></i> github.com/MassylHaddad</p>
           <p className="text"><i className="fa fa-linkedin" aria-hidden="true"></i> linkedin.com/massylhaddad</p>
           <p className="text"><i className="fa fa-map-marker" aria-hidden="true"></i> 9 rue Germaine Tailleferre, 94110 Arcueil</p>
           <hr /><p className="titre">QUALITES</p>
@@ -76,7 +74,7 @@ export default function Home() {
           <p className="textStatus"> Filière lycée général ES </p>
           <p className="text">Option de Mathématiques</p>
           <br /><hr /><br /><br /><br /><p className="titre">EXPERIENCES</p>
-          <p className="text2g"> <hr /> Août 2022 - PRESENT ~ <abbr title="Fleury Merogis">Green Hôtel Fleury</abbr></p>
+          <p className="text2g"> <hr /> Août 2022 - A PRESENT ~ <abbr title="Fleury Merogis">Green Hôtel Fleury</abbr></p>
           <p className="textStatus">Employé polyvalent</p>
           <p className="text"> Entretien de l'hôtel  Réception & Réservations </p>
           <p className="text2g"> <hr /> 2021 - 2022 ~  <abbr title=""></abbr>PROJET UNIVERSITAIRE</p>
