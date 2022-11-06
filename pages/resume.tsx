@@ -41,22 +41,22 @@ export default function Home() {
           <p className="text">Français</p>
           <p className="text">Kabyle</p>
           <hr /><p className="titre">PASSE-TEMPS</p>
-          <a href="/"><p className="text">Actualité scientifique</p></a>
-          <a href="/"><p className="text">Jeux Video</p></a>
-          <a href="/"><p className="text">Lecture (Software craftsmanship)</p></a>
-          <a href="/"><p className="text">Meditation</p></a>
+          <a href="/resume"><p className="text">Actualité scientifique</p></a>
+          <a href="/resume"><p className="text">Jeux Video</p></a>
+          <a href="/resume"><p className="text">Lecture (Software craftsmanship)</p></a>
+          <a href="/resume"><p className="text">Meditation</p></a>
           <hr /><p className="titre">OUTILS</p>
-          <a href="/"><img className="git" src="/svg/git.svg" alt="git" /></a>
-          <a href="/"><img className="docker" src="/svg/docker.svg" alt="docker" /></a>
-          <a href="/"><img className="react" src="/svg/react.svg" alt="react" /></a>
-          <a href="/"><img className="python" src="/svg/python.svg" alt="python" /></a>
-          <a href="/"><img className="node" src="/svg/node.svg" alt="node" /></a>
-          <a href="/"><img className="java" src="/svg/java.svg" alt="java" /></a>
-          <a href="/"><img className="postgresql" src="/svg/postgresql.svg" alt="postgresql" /></a>
-          <a href="/"><img className="fire" src="/svg/firebase.svg" alt="firebase" /></a>
-          <a href="/"><img className="tail" src="/svg/tailwind.svg" alt="tailwind" /></a>
-          <a href="/"><img className="php" src="/svg/php.svg" alt="php" /></a>
-          <a href="/"><img className="mysql" src="/svg/MySQL.svg" alt="mysql" /></a>
+          <a href="/resume"><img className="git" src="/svg/git.svg" alt="git" /></a>
+          <a href="/resume"><img className="docker" src="/svg/docker.svg" alt="docker" /></a>
+          <a href="/resume"><img className="react" src="/svg/react.svg" alt="react" /></a>
+          <a href="/resume"><img className="python" src="/svg/python.svg" alt="python" /></a>
+          <a href="/resume"><img className="node" src="/svg/node.svg" alt="node" /></a>
+          <a href="/resume"><img className="java" src="/svg/java.svg" alt="java" /></a>
+          <a href="/resume"><img className="postgresql" src="/svg/postgresql.svg" alt="postgresql" /></a>
+          <a href="/resume"><img className="fire" src="/svg/firebase.svg" alt="firebase" /></a>
+          <a href="/resume"><img className="tail" src="/svg/tailwind.svg" alt="tailwind" /></a>
+          <a href="/resume"><img className="php" src="/svg/php.svg" alt="php" /></a>
+          <a href="/resume"><img className="mysql" src="/svg/MySQL.svg" alt="mysql" /></a>
 
         </div>
         <div className="rightSide">
