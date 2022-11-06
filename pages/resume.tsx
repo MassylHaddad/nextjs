@@ -12,8 +12,8 @@ export default function Home() {
       </Head>
       <div className="container">
         <div className="leftSide">
-          <div className="print-photo"><img className='photo' src="massyl.jpg" alt="Photo" /></div>
           <section className="beta-section">
+          <div className="print-photo"><img className='photo' src="massyl.jpg" alt="Photo" /></div>
             <div className="containerC">
               <div className="card">
                 <div className="front"><img className='photo' src="massyl.jpg" alt="Photo" /></div>
@@ -31,29 +31,33 @@ export default function Home() {
           <p className="text"><i className="fa fa-linkedin" aria-hidden="true"></i> linkedin.com/massylhaddad</p>
           <p className="text"><i className="fa fa-map-marker" aria-hidden="true"></i> 9 rue Germaine Tailleferre, 94110 Arcueil</p>
           <hr /><p className="titre">QUALITES</p>
-          <p className="text">Travail d'équipe</p>
-          <p className="text">Rigueur</p>
           <p className="text">Autonomie</p>
+          <p className="text">Investi</p>
+          <p className="text">Rigueur</p>
+          <p className="text">Travail d'équipe</p>
           <hr /><p className="titre">LANGUES</p>
-          <p className="text">Français</p>
           <p className="text">Anglais</p>
+          <p className="text">Arabe</p>
+          <p className="text">Français</p>
           <p className="text">Kabyle</p>
           <hr /><p className="titre">PASSE-TEMPS</p>
-          <p className="text">Actualité scientifique</p>
-          <p className="text">Jeux Video</p>
-          <p className="text">Lecture (Software craftsmanship)</p>
-          <p className="text">Meditation</p>
+          <a href="/"><p className="text">Actualité scientifique</p></a>
+          <a href="/"><p className="text">Jeux Video</p></a>
+          <a href="/"><p className="text">Lecture (Software craftsmanship)</p></a>
+          <a href="/"><p className="text">Meditation</p></a>
           <hr /><p className="titre">OUTILS</p>
-          <img className="node" src="/svg/node.svg" alt="node" />
-          <img className="react" src="/svg/react.svg" alt="react" />
-          <img className="tail" src="/svg/tailwind.svg" alt="tailwind" />
-          <img className="git" src="/svg/git.svg" alt="git" />
-          <img className="java" src="/svg/java.svg" alt="java" />
-          <img className="docker" src="/svg/docker.svg" alt="docker" />
-          <img className="fire" src="/svg/firebase.svg" alt="firebase" />
-          <img className="postgresql" src="/svg/postgresql.svg" alt="postgresql" />
-          <img className="c" src="/svg/c.svg" alt="c" />
-          <img className="python" src="/svg/python.svg" alt="python" />
+          <a href="/"><img className="git" src="/svg/git.svg" alt="git" /></a>
+          <a href="/"><img className="docker" src="/svg/docker.svg" alt="docker" /></a>
+          <a href="/"><img className="react" src="/svg/react.svg" alt="react" /></a>
+          <a href="/"><img className="python" src="/svg/python.svg" alt="python" /></a>
+          <a href="/"><img className="node" src="/svg/node.svg" alt="node" /></a>
+          <a href="/"><img className="java" src="/svg/java.svg" alt="java" /></a>
+          <a href="/"><img className="postgresql" src="/svg/postgresql.svg" alt="postgresql" /></a>
+          <a href="/"><img className="fire" src="/svg/firebase.svg" alt="firebase" /></a>
+          <a href="/"><img className="tail" src="/svg/tailwind.svg" alt="tailwind" /></a>
+          <a href="/"><img className="php" src="/svg/php.svg" alt="php" /></a>
+          <a href="/"><img className="mysql" src="/svg/MySQL.svg" alt="mysql" /></a>
+
         </div>
         <div className="rightSide">
           <div className="BUT">
@@ -76,7 +80,7 @@ export default function Home() {
           <br /><hr /><br /><br /><br /><p className="titre">EXPERIENCES</p>
           <p className="text2g"> <hr /> Août 2022 - A PRESENT ~ <abbr title="Fleury Merogis">Green Hôtel Fleury</abbr></p>
           <p className="textStatus">Employé polyvalent</p>
-          <p className="text"> Entretien de l'hôtel  Réception & Réservations </p>
+          <p className="text"> Entretien de l'hôtel, Réservations et Réception </p>
           <p className="text2g"> <hr /> 2021 - 2022 ~  <abbr title=""></abbr>PROJET UNIVERSITAIRE</p>
           <p className="textStatus"> Etudiant </p>
           <div className="text"> <p> Algorithmes de plus court chemin en JavaScript/Node.js </p> <p> Réseau social en PHP </p> <p> Jeu 2D de bateau à voiles en Java </p></div>

@@ -20,7 +20,7 @@
     }
 
     div.print-photo img.photo {
-        display: flex;
+        display: flex !important;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -62,26 +62,49 @@ div.print-photo img.photo {
     width: auto;
 }
 
-img.node,
-img.react,
-img.git,
 img.java,
 img.fire,
-img.postgresql,
 img.c,
 img.python {
-    height: 6em;
+    height: 4em;
     width: auto;
     padding: 0.9em;
     margin-right: 1em;
+    padding-left: 0.9em;
+
 }
 
-img.tail {
+img.react,
+img.php, 
+img.postgresql,
+
+img.node,
+img.mysql {
     height: 3em;
+    width: auto;
+    padding: 0.9em;
+    padding-left: 0.9em;
+
 }
+
+img.git,
+img.fire,
 
 img.docker {
-    height: 4em;
+
+    height: 2em;
+    width: auto;
+    padding: 0.9em;
+    padding-left: 0.9em;
+    margin-right: 1em;
+
+}
+img.tail{
+    height: 1.2em;
+    width: auto;
+    padding: 0.9em;
+    padding-left: 0.9em;
+    margin-right: 1em;
 }
 
 .rightSide {
@@ -196,6 +219,9 @@ section.beta-section {
 
 .containerC:hover>.card {
     cursor: pointer;
+    transform: rotateX(-10deg);
+}
+.containerC:active>.card {
     transform: rotateY(180deg);
 }
 
@@ -241,11 +267,11 @@ section.beta-section {
     }
 
     .goal {
-        font-size: 1.1em;
+        font-size: 1.6em;
     }
 
     .rhythm {
-        font-size: 0.7em;
+        font-size: 1em;
     }
 
 
