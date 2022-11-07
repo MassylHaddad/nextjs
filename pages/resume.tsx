@@ -32,7 +32,7 @@ export default function Home() {
           <p className="text"><i className="fa fa-map-marker" aria-hidden="true"></i> 9 rue Germaine Tailleferre, 94110 Arcueil</p>
           <hr /><p className="titre">QUALITES</p>
           <p className="text">Autonomie</p>
-          <p className="text">Investi</p>
+          <p className="text">Implication</p>
           <p className="text">Rigueur</p>
           <p className="text">Travail d'équipe</p>
           <hr /><p className="titre">LANGUES</p>
