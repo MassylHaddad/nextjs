@@ -45,9 +45,12 @@
     margin-bottom: 6%;
     margin-left: 6%;
     margin-right: 6%;
-    background-color: #fafafa;
-}
+    background-color: #fbfbfb;
+    border-radius: 0.2rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #f0f2f4;
 
+
+}
 .leftSide {
     margin: 1em;
 }
