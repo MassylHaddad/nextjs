@@ -30,21 +30,6 @@ export default function Home() {
           <p className="text"><i className="fa fa-globe" aria-hidden="true"></i> github.com/MassylHaddad</p>
           <p className="text"><i className="fa fa-linkedin" aria-hidden="true"></i> linkedin.com/massylhaddad</p>
           <p className="text"><i className="fa fa-map-marker" aria-hidden="true"></i> 9 rue Germaine Tailleferre, 94110 Arcueil</p>
-          <hr /><p className="titre">QUALITES</p>
-          <p className="text">Autonomie</p>
-          <p className="text">Implication</p>
-          <p className="text">Rigueur</p>
-          <p className="text">Travail d'équipe</p>
-          <hr /><p className="titre">LANGUES</p>
-          <p className="text">Anglais</p>
-          <p className="text">Arabe</p>
-          <p className="text">Français</p>
-          <p className="text">Kabyle</p>
-          <hr /><p className="titre">PASSE-TEMPS</p>
-          <a href="/resume"><p className="text">Actualité scientifique</p></a>
-          <a href="/resume"><p className="text">Jeux Video</p></a>
-          <a href="/resume"><p className="text">Lecture (Software craftsmanship)</p></a>
-          <a href="/resume"><p className="text">Meditation</p></a>
           <hr /><p className="titre">OUTILS</p>
           <a href="/resume"><img className="git" src="/svg/git.svg" alt="git" /></a>
           <a href="/resume"><img className="docker" src="/svg/docker.svg" alt="docker" /></a>
@@ -56,7 +41,25 @@ export default function Home() {
           <a href="/resume"><img className="fire" src="/svg/firebase.svg" alt="firebase" /></a>
           <a href="/resume"><img className="tail" src="/svg/tailwind.svg" alt="tailwind" /></a>
           <a href="/resume"><img className="php" src="/svg/php.svg" alt="php" /></a>
-          <a href="/resume"><img className="mysql" src="/svg/MySQL.svg" alt="mysql" /></a>
+          <a href="/resume"><img className="mysql" src="/svg/MySQL.svg" alt="mysql" /></a>          
+          <hr /><p className="titre">QUALITES</p>
+          <p className="text">Autonomie</p>
+          <p className="text">Implication</p>
+          <p className="text">Rigueur</p>
+          <p className="text">Travail d'équipe</p>
+            
+          <hr /><p className="titre">LANGUES</p>
+          <p className="text">Anglais - Courant</p>
+          <p className="text">Arabe - Courant</p>
+          <p className="text">Français - Courant</p>
+          <p className="text">Kabyle - Courant</p>
+        
+          <hr /><p className="titre">PASSE-TEMPS</p>
+          <a href="/resume"><p className="text">Actualité scientifique</p></a>
+          <a href="/resume"><p className="text">Jeux Video</p></a>
+          <a href="/resume"><p className="text">Lecture (Software craftsmanship)</p></a>
+          <a href="/resume"><p className="text">Meditation</p></a>
+
 
         </div>
         <div className="rightSide">
@@ -67,7 +70,17 @@ export default function Home() {
               <p className="rhythm"> 2 semaines en entreprise / 1 semaine en école</p>
             </div>
           </div>
-          <hr /><p className="titre">FORMATIONS</p>
+          <hr /><p className="titre">EXPERIENCES</p>
+          <p className="text2g"> <hr /> Août 2022 - Octobre 2022 ~ <abbr title="Fleury Merogis">Green Hôtel Fleury</abbr></p>
+          <p className="textStatus">Employé polyvalent</p>
+          <p className="text"> Entretien de l'hôtel, Réservations et Réception </p>
+          <p className="text2g"> <hr /> 2021 - 2022 ~  <abbr title=""></abbr>PROJET UNIVERSITAIRE</p>
+          <p className="textStatus"> Etudiant </p>
+          <div className="text"> <p> Algorithmes de plus court chemin en JavaScript/Node.js </p> <p> Réseau social en PHP </p> <p> Jeu 2D de bateau à voiles en Java </p></div>
+          <p className="text2g"> <hr /> 2019 - 2020 ~ <abbr title="">PROJET UNIVERSITAIRE </abbr></p>
+          <p className="textStatus"> Etudiant </p>
+          <div className="text"> <p> Jeu 2D de voiture en C </p> <p> Algorithmes de Tri en C </p> <p>  Site en HTML / CSS </p> </div>
+          <br /><hr /><br /><br /><br /><p className="titre">FORMATIONS</p>
           <p className="text2g"> 2022-2023 <abbr title="Ecole Privée des Sciences Informatiques">EPSI</abbr></p>
           <p className="textStatus"> Cycle Bachelor Development Web </p>
           <p className="text">DEVOPS : Concepteur Développeur d’Applications</p>
@@ -77,16 +90,7 @@ export default function Home() {
           <p className="text2g"> <hr /> 2016-2019   <abbr title="Le Centre national d'enseignement à distance ">CNED</abbr></p>
           <p className="textStatus"> Filière lycée général ES </p>
           <p className="text">Option de Mathématiques</p>
-          <br /><hr /><br /><br /><br /><p className="titre">EXPERIENCES</p>
-          <p className="text2g"> <hr /> Août 2022 - A PRESENT ~ <abbr title="Fleury Merogis">Green Hôtel Fleury</abbr></p>
-          <p className="textStatus">Employé polyvalent</p>
-          <p className="text"> Entretien de l'hôtel, Réservations et Réception </p>
-          <p className="text2g"> <hr /> 2021 - 2022 ~  <abbr title=""></abbr>PROJET UNIVERSITAIRE</p>
-          <p className="textStatus"> Etudiant </p>
-          <div className="text"> <p> Algorithmes de plus court chemin en JavaScript/Node.js </p> <p> Réseau social en PHP </p> <p> Jeu 2D de bateau à voiles en Java </p></div>
-          <p className="text2g"> <hr /> 2019 - 2020 ~ <abbr title="">PROJET UNIVERSITAIRE </abbr></p>
-          <p className="textStatus"> Etudiant </p>
-          <div className="text"> <p> Jeu 2D de voiture en C </p> <p> Algorithmes de Tri en C </p> <p>  Site en HTML / CSS </p> </div>
+
         </div>
       </div>
     </div>
