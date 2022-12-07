@@ -89,7 +89,7 @@ export default function Home() {
           <p className="text">Projet universitaire : 2 sites, 2 jeux, 2 algorithmes</p>
           <p className="text2g"> <hr /> 2016-2019   <abbr title="Le Centre national d'enseignement à distance ">CNED</abbr></p>
           <p className="textStatus"> Filière lycée général ES </p>
-          <p className="text">Option de Mathématiques</p>
+          <p className="text">Option Mathématiques</p>
 
         </div>
       </div>
