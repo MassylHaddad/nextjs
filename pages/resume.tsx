@@ -71,7 +71,7 @@ export default function Home() {
             </div>
           </div>
           <hr /><p className="titre">EXPERIENCES</p>
-          <p className="text2g"> <hr /> Août 2022 - Octobre 2022 ~ <abbr title="Fleury Merogis">Green Hôtel Fleury</abbr></p>
+          <p className="text2g"> Août 2022 - Octobre 2022 ~ <abbr title="Fleury Merogis">Green Hôtel Fleury</abbr></p>
           <p className="textStatus">Employé polyvalent</p>
           <p className="text"> Entretien de l'hôtel, Réservations et Réception </p>
           <p className="text2g"> <hr /> 2021 - 2022 ~ <abbr title="">PROJET UNIVERSITAIRE </abbr></p>
