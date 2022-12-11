@@ -13,10 +13,10 @@ export default function Home() {
       <div className="container">
         <div className="leftSide">
           <section className="beta-section">
-          <div className="print-photo"><img className='photo' src="massyl.jpg" alt="Photo" /></div>
+          <div className="print-photo"><img className='photo' src="massylph.jpg" alt="Photo" /></div>
             <div className="containerC">
               <div className="card">
-                <div className="front"><img className='photo' src="massyl.jpg" alt="Photo" /></div>
+                <div className="front"><img className='photo' src="massylph.jpg" alt="Photo" /></div>
                 <div className="back">
                   <div className="ButContentBack">
                   </div>
