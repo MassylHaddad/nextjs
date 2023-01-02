@@ -38,7 +38,7 @@ button#resume-button {
   padding-right: 0.5rem;
   background-color: #ffff;
   color: #205375;
-  border-radius: 0.375rem;
+  border-radius: 0.420rem;
   cursor: pointer;
   transition: 1000ms;
   transform: translateY(0);
