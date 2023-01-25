@@ -1,3 +1,3 @@
 # massylhaddad.me
 
-### currently adding tailwind & nice feartures
+#### currently adding tailwind & nice feartures
