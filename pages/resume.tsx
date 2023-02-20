@@ -67,7 +67,7 @@ export default function Home() {
             <div className="ButContent">
               <p className="nom">Massyl HADDAD</p>
               <p className="goal">En recherche d'une école d'informatique <br> en Bachelor 3</p>
-              <p className="rhythm"> Pour une alternance avec l'entreprise mobile.club</p>
+              <p className="rhythm"> Pour une alternance avec l'entreprise <a href="mobile.club"> mobile.club</a></p>
             </div>
           </div>
           <hr /><p className="titre">EXPERIENCES</p>
