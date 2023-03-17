@@ -61,7 +61,7 @@ export default function Home() {
           <a href="/resume"><p className="text">Actualité scientifique</p></a>
           <a href="/resume"><p className="text">Jeux Video</p></a>
           <a href="/resume"><p className="text">Lecture (Software craftsmanship)</p></a>
-          <a href="/resume"><p className="text">Méditation</p></a>
+          <a href="/resume"><p className="text">Meditation</p></a>
 
 
         </div>
