@@ -29,7 +29,7 @@ export default function Home() {
           <p className="text"><i className="fa fa-envelope" aria-hidden="true"></i> massyl.haddad@gmail.com</p>
           <p className="text"><i className="fa fa-globe" aria-hidden="true"></i> github.com/MassylHaddad</p>
           <p className="text"><i className="fa fa-linkedin" aria-hidden="true"></i> linkedin.com/massylhaddad</p>
-          <p className="text"><i className="fa fa-map-marker" aria-hidden="true"></i> 9 rue Germaine Tailleferre, 94110 Arcueil</p>
+          <p className="text"><i className="fa fa-map-marker" aria-hidden="true"></i>94110 Arcueil</p>
           <hr /><p className="titre">OUTILS (to UPDATE)</p>
           <div className="grid grid-cols-3">
             <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	" src="/svg/node.svg" alt="Node" /></a>
@@ -69,8 +69,8 @@ export default function Home() {
           <div className="BUT">
             <div className="ButContent">
               <p className="nom">Massyl HADDAD</p>
-              <p className="goal">En recherche d'une école d'informatique <br> en Bachelor 3</p>
-              <p className="rhythm"> Pour une alternance avec l'entreprise <a href="mobile.club"> mobile.club</a> </p>
+              <p className="goal">En recherche d'une école d'informatique en Bachelor 3</p>
+              <p className="rhythm"> Pour une alternance</p>
             </div>
           </div>
           <hr /><p className="titre">EXPERIENCES</p>
