@@ -13,7 +13,7 @@ export default function Home() {
       <div className="container">
         <div className="leftSide">
           <section className="beta-section">
-          <div className="print-photo"><img className='photo' src="massylph.jpg" alt="Photo" /></div>
+            <div className="print-photo"><img className='photo' src="massylph.jpg" alt="Photo" /></div>
             <div className="containerC">
               <div className="card">
                 <div className="front"><img className='photo' src="massylph.jpg" alt="Photo" /></div>
@@ -30,30 +30,33 @@ export default function Home() {
           <p className="text"><i className="fa fa-globe" aria-hidden="true"></i> github.com/MassylHaddad</p>
           <p className="text"><i className="fa fa-linkedin" aria-hidden="true"></i> linkedin.com/massylhaddad</p>
           <p className="text"><i className="fa fa-map-marker" aria-hidden="true"></i> 9 rue Germaine Tailleferre, 94110 Arcueil</p>
-          <hr /><p className="titre">OUTILS</p>
-          <a href="/resume"><img className="git" src="/svg/git.svg" alt="git" /></a>
-          <a href="/resume"><img className="docker" src="/svg/docker.svg" alt="docker" /></a>
-          <a href="/resume"><img className="react" src="/svg/react.svg" alt="react" /></a>
-          <a href="/resume"><img className="python" src="/svg/python.svg" alt="python" /></a>
-          <a href="/resume"><img className="node" src="/svg/node.svg" alt="node" /></a>
-          <a href="/resume"><img className="java" src="/svg/java.svg" alt="java" /></a>
-          <a href="/resume"><img className="postgresql" src="/svg/postgresql.svg" alt="postgresql" /></a>
-          <a href="/resume"><img className="fire" src="/svg/firebase.svg" alt="firebase" /></a>
-          <a href="/resume"><img className="tail" src="/svg/tailwind.svg" alt="tailwind" /></a>
-          <a href="/resume"><img className="php" src="/svg/php.svg" alt="php" /></a>
-          <a href="/resume"><img className="mysql" src="/svg/MySQL.svg" alt="mysql" /></a>          
+          <hr /><p className="titre">OUTILS (to UPDATE)</p>
+          <div className="grid grid-cols-3">
+            <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	" src="/svg/node.svg" alt="Node" /></a>
+            <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	 mr-4" src="/svg/c.svg" alt="C" /></a>
+            <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	" src="/svg/Nextjs.svg" alt="Nextjs" /></a>
+            <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	" src="/svg/mysql.svg" alt="MySQL" /></a>
+            <a href="/resume"><img className="h-20 w-auto p-2 pl-2 inline-table	 mr-4" src="/svg/python.svg" alt="Python" /></a>
+            <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	 mr-4 " src="/svg/firebase.svg" alt="Fire" /></a>
+            <a href="/resume"><img className="h-12 w-auto p-2 pl-2 inline-table	 mr-4" src="/svg/docker.svg" alt="Docker" /></a>
+            <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	" src="/svg/react.svg" alt="React" /></a>
+            <a href="/resume"><img className="h-12 w-auto p-2 pl-2 inline-table	 mr-4" src="/svg/tailwind.svg" alt="Tailwind" /></a>
+            <a href="/resume"><img className="h-14 w-auto p-2 pl-2 inline-table	" src="/svg/php.svg" alt="PHP" /></a>
+            <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	" src="/svg/postgresql.svg" alt="PostgreSQL" /></a>
+            <a href="/resume"><img className="h-12 w-auto p-2 pl-2 inline-table	 mr-4" src="/svg/git.svg" alt="Git" /></a>
+          </div>
           <hr /><p className="titre">QUALITES</p>
           <p className="text">Autonomie</p>
           <p className="text">Implication</p>
           <p className="text">Rigueur</p>
           <p className="text">Travail d'équipe</p>
-            
+
           <hr /><p className="titre">LANGUES</p>
           <p className="text">Anglais - Courant</p>
           <p className="text">Arabe - Courant</p>
           <p className="text">Français - Courant</p>
           <p className="text">Kabyle - Courant</p>
-        
+
           <hr /><p className="titre">PASSE-TEMPS</p>
           <a href="/resume"><p className="text">Actualité scientifique</p></a>
           <a href="/resume"><p className="text">Jeux Video</p></a>

@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @media print {
     .body {
         width: 21cm;
@@ -7,8 +10,8 @@
     .container {
         width: 90%;
         height: 90%;
-        margin: 0;
-        padding: 0;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 
     section.beta-section {
@@ -41,10 +44,10 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-top: 6%;
-    margin-bottom: 6%;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-top: 6% !important;
+    margin-bottom: 6% !important;
+    margin-left: 6% !important;
+    margin-right: 6% !important;
     background-color: #fbfbfb;
     border-radius: 0.2rem;
     box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #f0f2f4;
@@ -52,7 +55,7 @@
 
 }
 .leftSide {
-    margin: 1em;
+    margin: 1em !important;
 }
 
 div.print-photo img.photo {
@@ -110,8 +113,8 @@ img.tail{
     margin-right: 1em;
 }
 
-.rightSide {
-    margin: 1em;
+div.rightSide {
+    margin: 1em !important;
 }
 
 div.BUT {
@@ -119,9 +122,9 @@ div.BUT {
     border-radius: 2em;
 }
 
-div.ButContent {
-    margin: 1em;
-    padding: 1em;
+div.BUT div.ButContent {
+    margin: 1em !important;
+    padding: 1em !important;
 }
 
 .nom {
@@ -146,8 +149,8 @@ div.ButContent {
 }
 
 div.ButContentBack {
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1rem !important;
+    padding: 1rem !important;
 }
 
 .goalBack {
@@ -169,13 +172,13 @@ div.ButContentBack {
     text-transform: uppercase;
     font-weight: 750;
     font-size: 2em;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.2rem !important;
 }
 
 .text {
     color: #112B3C;
     font-size: 1.5em;
-    padding-left: 0.3em;
+    padding-left: 0.3em !important;
 }
 
 .text2g {
@@ -194,7 +197,7 @@ div.ButContentBack {
 
 .text2g hr {
     border-top: 0.1px dashed #EFEFEF;
-    margin: 1.5em;
+    margin: 1.5em !important ;
 }
 
 .front img.photo {
@@ -211,7 +214,7 @@ section.beta-section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0.25em;
+    margin: 0.25em !important;
 }
 
 .containerC {
@@ -274,7 +277,7 @@ section.beta-section {
     }
 
     .rhythm {
-        font-size: 1em;
+        font-size: 1em ;
     }
 
 
