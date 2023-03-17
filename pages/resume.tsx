@@ -69,8 +69,8 @@ export default function Home() {
           <div className="BUT">
             <div className="ButContent">
               <p className="nom">Massyl HADDAD</p>
-              <p className="goal">En recherche d'alternance <br /> en Development Fullstack </p>
-              <p className="rhythm"> 2 semaines en entreprise / 1 semaine en école</p>
+              <p className="goal">En recherche d'une école d'informatique <br> en Bachelor 3</p>
+              <p className="rhythm"> Pour une alternance avec l'entreprise <a href="mobile.club"> mobile.club</a> </p>
             </div>
           </div>
           <hr /><p className="titre">EXPERIENCES</p>
@@ -84,13 +84,13 @@ export default function Home() {
           <p className="textStatus"> Etudiant </p>
           <div className="text"> <p> Jeu 2D de voiture en C </p> <p> Algorithmes de Tri en C </p> <p>  Site en HTML / CSS </p> </div>
           <br /><hr /><br /><br /><br /><p className="titre">FORMATIONS</p>
-          <p className="text2g"> 2022-2023 <abbr title="Ecole Privée des Sciences Informatiques">EPSI</abbr></p>
+          <p className="text2g"> octobre 2022 - janvier 2023 <abbr title="Ecole Privée des Sciences Informatiques">EPSI</abbr></p>
           <p className="textStatus"> Cycle Bachelor Development Web </p>
           <p className="text">DEVOPS : Concepteur Développeur d’Applications</p>
           <p className="text2g"> <hr /> 2019 - 2022 <abbr title="Université de Picardie Jules-Verne">UPJV</abbr></p>
           <p className="textStatus"> Cycle Licence Informatique</p>
           <p className="text">Projet universitaire : 2 sites, 2 jeux, 2 algorithmes</p>
-          <p className="text2g"> <hr /> 2016-2019   <abbr title="Le Centre national d'enseignement à distance ">CNED</abbr></p>
+          <p className="text2g"> <hr /> 2016 - 2019   <abbr title="Le Centre national d'enseignement à distance ">CNED</abbr></p>
           <p className="textStatus"> Filière lycée général ES </p>
           <p className="text">Option Mathématiques</p>
 
