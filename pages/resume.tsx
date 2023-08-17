@@ -33,7 +33,7 @@ export default function Home() {
             <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	" src="/svg/node.svg" alt="Node" /></a>
             <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	 mr-4" src="/svg/c.svg" alt="C" /></a>
             <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	" src="/svg/Nextjs.svg" alt="Nextjs" /></a>
-            <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	" src="/svg/mysql.svg" alt="MySQL" /></a>
+            <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	" src="/svg/MySQL.svg" alt="MySQL" /></a>
             <a href="/resume"><img className="h-20 w-auto p-2 pl-2 inline-table	 mr-4" src="/svg/python.svg" alt="Python" /></a>
             <a href="/resume"><img className="h-16 w-auto p-2 pl-2 inline-table	 mr-4 " src="/svg/firebase.svg" alt="Fire" /></a>
             <a href="/resume"><img className="h-12 w-auto p-2 pl-2 inline-table	 mr-4" src="/svg/docker.svg" alt="Docker" /></a>
